@@ -3,10 +3,10 @@ package Compress
 //源数据块的解压缩文件
 import (
 	"archive/zip"
+	"bytes"
 	"compress/zlib"
 	"fmt"
 	"github.com/golang/snappy"
-	"github.com/ipfs/go-datastore"
 	"github.com/klauspost/compress/zstd"
 	"github.com/pierrec/lz4"
 	"io"
